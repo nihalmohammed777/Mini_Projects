@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Gilroy;
+}
+
+#main{
+    width: 100%;
+    height: 100%;  
+}
+
+#nav{
+width: 100%;
+height: 80px;
+display: flex;
+justify-content: space-between;
+padding: 25px 40px;
+/* background-color: red; */
+}
+
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    /* background-color: aqua; */
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+    /* background-color: aquamarine; */
+}
+#nav h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav h1{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+#nav h4{
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+#content{
+    margin-top: 10px;
+    padding: 40px 40px;
+}
+
+#content h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#content h1{
+    margin-top: 30px;
+    font-size: 120px;
+    line-height: 120px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    word-spacing: 10px;
+}
+
+
+#case{
+    padding:40px 40px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#case h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+#right{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+}
+
+#line{
+  height: 2px ;
+  width: 160px;
+  background-color: black;
+}
+
+#projects{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px;
+    gap: 80px;
+}
+
+.ele{
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.eleimg{
+    /* border: 1px solid  #969696  ; */
+    height: 500px;
+    width: 100%;
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img1{
+    background-image:url(./image/Screenshot\ 2024-03-25\ 165205.png) ;
+}
+
+#img2{
+    background-image:url(./image/Screenshot\ 2024-03-25\ 165243.png) ;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+
+.bottom h4{
+    font-size: 20px;
+ color: #969696;
+ font-weight: 500;
+}
